@@ -47,7 +47,28 @@ mat_B
 add_AB = mat_A+mat_B
 add_AB
 
-#substraction
+#subtraction
 sub_AB = mat_A-mat_B
 sub_AB
 
+
+# Division
+dev_AB = mat_A / mat_B
+dev_AB
+
+# Multiplication
+mul_AB = mat_A * mat_B
+mul_AB
+
+
+# Data Frames
+
+a = c(10, 20, 30, 40)
+b = c(1:4)
+d = c('M','I','S','O')   # changed from c to d
+
+df_MY = data.frame(a, b, d)
+
+names(df_MY) = c('ID', 'Values', 'Names')
+
+df_MY
